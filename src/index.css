@@ -25,6 +25,11 @@ article {
   flex-basis: 30%;
 }
 
+.hovered {
+  border: #f39c12 2px solid;
+  scale: 1.2;
+}
+
 .filterbar {
   background-color: #f39c12;
   border: none;
