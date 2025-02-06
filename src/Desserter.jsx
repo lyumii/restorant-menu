@@ -3,7 +3,7 @@ import Card from "./Card";
 
 export default function Desserter() {
   return (
-    <div className="container">
+    <div className="container ">
       <h2 className="p-2 border-b-1 border-t-1 border-red-400 uppercase tracking-wider font-semibold">
         Desserter:
       </h2>
