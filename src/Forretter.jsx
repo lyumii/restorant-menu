@@ -11,6 +11,7 @@ export default function Forretter() {
         {Menu.filter((item) => item.kategori === "Forrett").map((item) => (
           <Card
             key={item.id}
+            img={item.img}
             tittel={item.tittel}
             pris={item.pris}
             ingredienser={item.ingredienser}

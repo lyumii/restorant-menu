@@ -11,6 +11,7 @@ export default function Desserter() {
         {Menu.filter((item) => item.kategori === "Dessert").map((item) => (
           <Card
             key={item.id}
+            img={item.img}
             tittel={item.tittel}
             pris={item.pris}
             ingredienser={item.ingredienser}
