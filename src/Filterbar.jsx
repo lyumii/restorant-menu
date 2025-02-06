@@ -13,7 +13,7 @@ export default function Filterbar() {
 
   return (
     <div>
-      <div className="filterbar">
+      <div className="filterbar tracking-widest bg-red-400 text-cyan-950 text-lg flex justify-between p-4 rounded-bl-xl rounded-br-xl">
         <button onClick={alleBtn}>Alle</button>
         <button onClick={forretterBtn}>Forretter</button>
         <button onClick={hovedretterBtn}>Hovedretter</button>
